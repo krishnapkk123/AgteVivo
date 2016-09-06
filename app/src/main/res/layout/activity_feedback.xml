@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <!--Put form controls here-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter the feedback details that you need to send"
+            android:id="@+id/textView5"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_gravity="center_horizontal"
+            android:hint="Full Name"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:hint="Email"
+            android:layout_marginTop="20dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_marginTop="20dp"
+            android:background="#106878"
+            android:layout_weight="0.35"
+            android:spinnerMode="dropdown"
+            android:elevation="20dp"
+
+            android:clickable="false">
+
+        </Spinner>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText5"
+            android:layout_marginTop="20dp"
+            android:hint="Write your content...." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Would you like and Email Response.?"
+            android:id="@+id/checkBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:checked="false" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="Send Feedback"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:background="#45d7d4" />
+
+
+    </LinearLayout>
+</RelativeLayout>

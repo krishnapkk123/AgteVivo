@@ -1,0 +1,36 @@
+<resources>
+
+
+    <string name="app_name">VIVO</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+
+    <string-array name="header_titles">
+        <item>scheme 1</item>
+        <item>scheme 2</item>
+        <item>scheme 3</item>
+
+    </string-array>
+    <string-array name="h1_items">
+        <item>Sheme 1</item>
+        <item>scheme 2</item>
+        <item>scheme 3</item>
+
+    </string-array>
+
+    <string-array name="h2_items">
+        <item>Sheme 1</item>
+        <item>scheme 2</item>
+        <item>scheme 3</item>
+
+    </string-array>
+
+    <string-array name="h3_items">
+        <item>Sheme 1</item>
+        <item>scheme 2</item>
+        <item>scheme 3</item>
+
+    </string-array>
+
+</resources>
